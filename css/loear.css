@@ -344,7 +344,7 @@ header, main, footer{
     max-width: 100%;
 }
  
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width:600px) {
 
     header{
         background-position: 100%;
@@ -353,7 +353,7 @@ header, main, footer{
     body {
         font-size: 15px;
         overflow-x: hidden;
-        overflow-y: auto;
+        /* overflow-y: auto; */
         /* width: 100%; */
         margin: 0;
         padding: 0;
@@ -385,28 +385,40 @@ header, main, footer{
     }
     .collections{
         gap: 0.3px;
-        margin-bottom: 11rem;
+        margin-bottom: 12rem;
+    }
+    .img0, .img1, .img2, .img3{
+        background-size: 120vh 100vh;
+    }
+    .img0 p, .img1 p, .img2 p, .img3 p{
+       margin-left: 100vh;
+    transform: translateY(2vh);
+
     }
     .help, .socials{
         gap: 2vh;
     }
+    .socials{
+        margin-left: 15px;
+    }
     .luxman, .luxwoman{
         background-position: 70%;
-        background-size: 110vh 100vh;
+        background-size: 120vh 100vh;
     }
     form{
         align-items: center;
         margin: 20px;
     }
 } 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 320px) {
 
     header{
         background-position: 100%;
-        background-size: 120vh 100vh;
+        background-size: 120vh 70vh;
+        margin-right: -1rem;
     }
     body {
-        font-size: 15px;
+        font-size: 10px;
         overflow-x: hidden;
         overflow-y: auto;
         /* width: 100%; */
@@ -419,17 +431,24 @@ header, main, footer{
     }
      .logo, .icons{
         display: flex;
-        margin: 4px 0;
+        margin-right: 6px;
         text-align: left;
     }
+    .logo{
+        margin-left: 10px;
+    }
     .hero-part h2{
-        font-size: 2.5rem;
-        max-width: 100vh;
+        font-size: 1.1rem;
+        max-width: 40vh;
         line-height: 1.2;
     }
     .hero-part p{
-        font-size: 1rem;
-        margin-bottom: 15px;
+        font-size: 0.5rem;
+        max-width: 43vh;
+    }
+    .hero-part a{
+        transform: translateY(-90vh);
+        
     }
 
     .cover, .help, .socials, .trend-collections, .collections{
@@ -438,19 +457,46 @@ header, main, footer{
     
 
     }
+    .features-collection{
+        margin-top: -6rem;
+        font-size: px;
+    }
+    .features-collection h2{
+        font-size: 16px;
+    }
     .collections{
-        gap: 0.3px;
-        margin-bottom: 11rem;
+        gap: -2px;
+        margin-bottom: 7rem;
+    }
+    .text{
+        margin-left: -0vh;
+        transform: translateY(50vh);
     }
     .help, .socials{
         gap: 2vh;
     }
     .luxman, .luxwoman{
         background-position: 70%;
-        background-size: 110vh 100vh;
+        background-size: 110vh 70vh;
+        margin-top: -31vh;
+    }
+    .on1{
+        margin-bottom: 20vh;
     }
     form{
         align-items: center;
         margin: 20px;
+        margin-right: 10px;
+        max-width: 50vh;
+    }
+    form h3{
+        font-size: 14px;
+        max-width: 50vh;
+    }
+    form p, button, form input{
+        font-size: 12px;
+    }
+    .box{
+        margin-top: -15vh;
     }
 } 
