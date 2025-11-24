@@ -338,35 +338,55 @@ span a{
 header, main, footer{
     max-width: 100%;
 }
-@media screen and (max-width:480px ) {
+
+@media only screen and (max-width: 600px) {
     header{
-        width: 90%;
-        justify-content: cover;
+        background-position: 100%;
+        background-size: 120vh 100vh;
     }
-    
-}
-@media screen and (wax-width: 768px) {
-    .scrowbar, .navbar{
-        width: 90%;
+    body {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
     }
+     nav, .link-text {
+        display: none;
     
-}
-@media screen and (wax-width:768px) {
-    .container{
-        width: 90%;
     }
-    
-}
-@media screen and (wax-width:768px) {
-    .features-collection{
-        flex-direction: column;
+     .logo, .icons{
+        display: flex;
+        margin: 4px 0;
+        text-align: left;
     }
-    
-}
-@media screen and (max-width: 768) {
-    #on1{
+    .hero-part h2{
+        font-size: 2.5rem;
+        max-width: 100vh;
+        line-height: 1.2;
+    }
+    .hero-part p{
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .cover, .help, .socials, .trend-collections, .collections{
         display: flex;
         flex-direction: column;
-    }
     
-}
+
+    }
+    .collections{
+        gap: 0.3px;
+        margin-bottom: 11rem;
+    }
+    .help, .socials{
+        gap: 2vh;
+    }
+    .luxman, .luxwoman{
+        background-position: 70%;
+        background-size: 110vh 100vh;
+    }
+    form{
+        align-items: center;
+        margin: 20px;
+    }
+} 
