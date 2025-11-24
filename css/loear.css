@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+     /* box-sizing: border-box; */
 }
 header{
     background-image: url(../images/bg\ Image.png);
@@ -46,7 +47,6 @@ nav{
     display: flex;
     justify-content: center;
 }
-
 .logo{
     text-transform: capitalize;
     justify-items: center;
@@ -343,16 +343,18 @@ span a{
 header, main, footer{
     max-width: 100%;
 }
+ 
+@media only screen and (max-width: 500px) {
 
-@media only screen and (max-width: 520px) {
     header{
         background-position: 100%;
         background-size: 120vh 100vh;
     }
     body {
         font-size: 15px;
-          overflow-x: hidden;
-        width: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        /* width: 100%; */
         margin: 0;
         padding: 0;
     }
@@ -397,7 +399,58 @@ header, main, footer{
         margin: 20px;
     }
 } 
+@media only screen and (max-width: 300px) {
 
+    header{
+        background-position: 100%;
+        background-size: 120vh 100vh;
+    }
+    body {
+        font-size: 15px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        /* width: 100%; */
+        margin: 0;
+        padding: 0;
+    }
+     .nva-first, .link-text {
+        display: none;
+    
+    }
+     .logo, .icons{
+        display: flex;
+        margin: 4px 0;
+        text-align: left;
+    }
+    .hero-part h2{
+        font-size: 2.5rem;
+        max-width: 100vh;
+        line-height: 1.2;
+    }
+    .hero-part p{
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
 
+    .cover, .help, .socials, .trend-collections, .collections{
+        display: flex;
+        flex-direction: column;
+    
 
-
+    }
+    .collections{
+        gap: 0.3px;
+        margin-bottom: 11rem;
+    }
+    .help, .socials{
+        gap: 2vh;
+    }
+    .luxman, .luxwoman{
+        background-position: 70%;
+        background-size: 110vh 100vh;
+    }
+    form{
+        align-items: center;
+        margin: 20px;
+    }
+} 
