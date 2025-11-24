@@ -42,6 +42,11 @@ nav{
     display: flex;
 
 }
+.link-text{
+    display: flex;
+    justify-content: center;
+}
+
 .logo{
     text-transform: capitalize;
     justify-items: center;
@@ -346,6 +351,8 @@ header, main, footer{
     }
     body {
         font-size: 15px;
+          overflow-x: hidden;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
@@ -390,4 +397,5 @@ header, main, footer{
         margin: 20px;
     }
 } 
+
 
