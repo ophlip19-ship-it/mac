@@ -500,3 +500,121 @@ header, main, footer{
         margin-top: -15vh;
     }
 } 
+@media only screen and (max-width: 480px) {
+
+    header{
+        background-position: 100%;
+        background-size: 120vh 75vh;
+        margin-right: -1rem;
+    }
+    body {
+        font-size: 10px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        /* width: 100%; */
+        margin: 0;
+        padding: 0;
+    }
+     .nva-first, .link-text {
+        display: none;
+    
+    }
+     .logo, .icons{
+        display: flex;
+        margin-right: 2vh;
+        text-align: left;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .hero-part h2{
+        font-size: 1.5rem;
+        max-width: 60vh;
+        line-height: 1.2;
+    }
+    .hero-part p{
+        font-size: 0.5rem;
+        max-width: 43vh;
+        margin-bottom: -3vh;
+    }
+    .hero-part a{
+        margin-top: -5vh;
+        font-size: 0.8rem;
+        
+        
+    }
+
+    .cover, .help, .socials, .trend-collections, .collections{
+        display: flex;
+        flex-direction: column;
+    
+
+    }
+    .features-collection{
+        margin-top: -5rem;
+        
+    }
+    .features-collection h2{
+        font-size: 16px;
+    }
+    .collections{
+        margin-bottom: -7rem;
+    }
+    .woman h2, .man h2{
+        margin-bottom: 10px;
+    }
+    .women, .men{
+        background-size: 100vh 80vh;
+    }
+    .men{
+        margin-top: -25vh;
+    }
+    .trending{
+        margin-top: -40vh;
+        margin-bottom: -30vh;
+    }
+    .img0, .img1, .img2, .img3{
+        background-size: 90vh 70vh;
+        margin-top: -30vh;
+
+    }
+     .trending h3{
+        transform: translateY(-30vh);
+     }
+     .item0 p, .item1 p, .item2 p, .item3 p{
+        transform: translateY(-29.5vh);
+
+        
+     }
+    .text{
+        margin-left: -0vh;
+        transform: translateY(50vh);
+    }
+    .help, .socials{
+        gap: 2vh;
+    }
+    .luxman, .luxwoman{
+        background-position: 70%;
+        background-size: 110vh 70vh;
+        margin-top: -31vh;
+    }
+    .on1{
+        margin-bottom: 20vh;
+    }
+    form{
+        align-items: center;
+        margin: 20px;
+        margin-right: 10px;
+        max-width: 50vh;
+    }
+    form h3{
+        font-size: 14px;
+        max-width: 50vh;
+    }
+    form p, button, form input{
+        font-size: 12px;
+    }
+    .box{
+        margin-top: -15vh;
+    }
+} 
