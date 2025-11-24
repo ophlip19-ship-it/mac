@@ -356,7 +356,7 @@ header, main, footer{
         margin: 0;
         padding: 0;
     }
-     nav, .link-text {
+     .nva-first, .link-text {
         display: none;
     
     }
@@ -397,5 +397,6 @@ header, main, footer{
         margin: 20px;
     }
 } 
+
 
 
