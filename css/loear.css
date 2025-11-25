@@ -482,6 +482,10 @@ header, main, footer{
         gap: -2px;
         margin-bottom: 1rem;
     }
+    
+    .img0, .img1, .img2, .img3{
+        background-size: 90vh 70vh;
+
     .text{
         margin-left: -0vh;
         transform: translateY(50vh);
@@ -641,5 +645,6 @@ header, main, footer{
         margin-top: -15vh;
     }
 } 
+
 
 
