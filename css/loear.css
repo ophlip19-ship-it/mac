@@ -452,8 +452,8 @@ header, main, footer{
         margin-left: 10px;
     }
     .hero-part h2{
-        font-size: 1.1rem;
-        max-width: 40vh;
+        font-size: 0.8rem;
+        max-width: 30vh;
         line-height: 1.2;
     }
     .hero-part p{
@@ -471,12 +471,15 @@ header, main, footer{
     
 
     }
+    .women,.Men{
+        Margin-bottom:-5rem
+    }
     .features-collection{
         margin-top: -6rem;
-        font-size: px;
+        font-size: 10px;
     }
     .features-collection h2{
-        font-size: 16px;
+        font-size: 9px;
     }
     .collections{
         gap: -2px;
@@ -484,7 +487,7 @@ header, main, footer{
     }
     
     .img0, .img1, .img2, .img3{
-        background-size: 90vh 70vh;
+        background-size: 100vh 50vh;
 
     .text{
         margin-left: -0vh;
@@ -511,8 +514,8 @@ header, main, footer{
         max-width: 50vh;
     }
     form h3{
-        font-size: 14px;
-        max-width: 40vh;
+        font-size: 10px;
+        max-width: 30vh;
     }
     form p, button, form input{
         font-size: 12px;
@@ -645,6 +648,7 @@ header, main, footer{
         margin-top: -15vh;
     }
 } 
+
 
 
 
