@@ -422,7 +422,7 @@ footer a{
 @media only screen and (max-width:980px) {
     header{
         height: 70vh;
-        Background-size:100%;
+        Width:100%;
     }
     .navbar{
         padding: 0 20px;
@@ -534,6 +534,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
