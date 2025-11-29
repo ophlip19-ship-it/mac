@@ -332,7 +332,7 @@ footer a{
         font-weight: lighter;
     }
     .collections img{
-        width: 45vh;
+        width: 46vh;
     }
     .women p, .men p{
     transform:translateY(-3em);
@@ -354,7 +354,7 @@ footer a{
     }
 
     .trend-collections img{
-        height: 43vh;
+        height: 45vh;
     }
     .img0{
     margin-left: 30vh;
@@ -374,7 +374,7 @@ footer a{
     .box {
     background-size: center;
     height: 50vh;
-    Margin-top:-18vh;
+    Margin-top:-15vh;
     }
     form{
         padding: 8% 4%;
@@ -530,6 +530,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
