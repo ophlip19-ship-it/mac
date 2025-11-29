@@ -374,7 +374,7 @@ footer a{
     .box {
     background-size: center;
     height:45vh;
-    Margin-top:-13vh;
+    Margin-top:-14vh;
     }
     form{
         padding: 8% 4%;
@@ -396,6 +396,9 @@ footer a{
     footer{
         height: auto;
     }
+    Footer a{
+        font-size:10px;
+    } 
     .cover, .licence, .help, .licence span{
         display: flex;
         flex-direction: column;
@@ -530,6 +533,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
