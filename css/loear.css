@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    position: relative;
 }
 .container{
     width: 95%;
@@ -52,7 +53,7 @@ nav a{
     
 } 
 .hero-part {
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: white;
     transform: translateY(30vh);
 }
@@ -65,6 +66,7 @@ nav a{
 .hero-part p{
     max-width: 34em;
     margin-bottom: 1em;
+
 }
 .hero-part a{
     text-decoration: none;
@@ -296,13 +298,130 @@ footer a{
     }
     
 }
+
+@media only screen and (max-width:480px) {
+    header{
+        height: 70vh;
+        width: 100%;
+    }
+    .navbar{
+        padding: 0 11px;
+        gap: 60%;
+    }
+    .icons{
+        gap: 30px;
+    }
+    .hero-part{
+        transform: translateY(25vh);
+    }
+    .hero-part h2{
+        font-size: 2em;
+    }
+    .hero-part p{
+    font-size: 1em;
+    line-height: 1.7em;
+    margin-bottom: 18px;
+    }
+    .hero-part a{
+    text-align: center;
+    justify-items: center;
+    padding: 9px 110px;
+    }
+    .features h2{
+        font-size: 1.7em;
+        font-weight: lighter;
+    }
+    .collections img{
+        width: 49vh;
+    }
+    .women p, .men p{
+    transform:translateY(-3em);
+    font-size: 20px;
+    margin-left: 0.8rem;
+    }
+    .men a, .women a{
+    font-size: 16px;
+    padding: 2px 10px;
+    }
+    .trending h2{
+        margin: 1px 0;
+    }
+    .trending{
+        margin-bottom: 5px;
+    }
+    .trend-collections{
+    gap: 16px;
+    }
+
+    .trend-collections img{
+        height: 45vh;
+    }
+    .img0{
+    margin-left: 30vh;
+    }
+    .luxman p, .luxwoman p{
+    transform: translateY(-7vh);
+    font-size: 16px;    
+    font-weight: 200;
+    margin-bottom: 1vmin;
+    }
+    .luxury a{
+    padding: 3px 2vw;
+    }
+    .luxwoman{
+    transform: translateY(-6vh);
+    }
+    .box {
+    background-size: center;
+    height: 50vh;
+    }
+    form{
+        padding: 8% 4%;
+        max-width: 90%;
+        transform: translateY(20vh);
+        gap: 2vh;
+
+    }
+    form h3{
+        font-size: 100%;
+        font-weight: 400;
+    }
+    form p{
+        font-size: 100%;
+    }
+    form input, form button{
+        font: size 90%;
+    }
+    footer{
+        height: auto;
+    }
+    .cover, .licence, .help, .licence span{
+        display: flex;
+        flex-direction: column;
+    }
+    .socials{
+        gap: 3vh;
+        float: left;
+        margin-left: 10px;
+    }
+    .hel, .company{
+        margin-top: 4vh;
+    }
+    .licence{
+        flex-direction: column-reverse;
+        gap: 3vh;
+    }
+    .licence span{
+        gap: 3vh;
+    }
+} 
 @media only screen and (max-width:320px) {
     header{
         height: 70vh;
     }
     .navbar{
         padding: 0 8px;
-        gap: 15em;
+        gap: 10em;
     }
     .icons{
         gap: 30px;
