@@ -422,16 +422,17 @@ footer a{
 @media only screen and (max-width:980px) {
     header{
         height: 70vh;
+        Background-size:cover;
     }
     .navbar{
-        padding: 0 8px;
+        padding: 0 20px;
         gap: 10em;
     }
     .icons{
         gap: 30px;
     }
     .hero-part{
-        transform: translateY(17vh);
+        transform: translateY(20vh);
     }
     .hero-part h2{
         font-size: 2em;
@@ -450,7 +451,7 @@ footer a{
         font-weight: lighter;
     }
     .collections img{
-        width: 37vh;
+        width: 35vh;
     }
     .women p, .men p{
     transform:translateY(-3em);
@@ -515,7 +516,7 @@ footer a{
     }
     .cover, .licence, .help, .licence span{
         display: flex;
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
     .socials{
         gap: 3vh;
@@ -533,6 +534,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
