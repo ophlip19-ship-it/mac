@@ -1,654 +1,412 @@
 *{
     margin: 0;
     padding: 0;
-    Overflow-X: hidden;
-    position: relative;
-     /* box-sizing: border-box; */
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.scrowbar{
+    
+    background-color: #4170E8;
+    text-transform: uppercase;
+    height: 20px auto;
+    justify-items: center;
+    text-align: center;
+    padding: 10px 0;
+}
+marquee span{ padding: 0 30px;
 }
 header{
     background-image: url(../images/bg\ Image.png);
-    height: 100vh;
     background-repeat: no-repeat;
-   
-}
-.hero-part a:hover, a:hover, .luxury a:hover{
-    font-size: 14px;
-
-}
-
-.scrowbar{
-    background-color: #4170E8;
-    text-transform: uppercase;
-    height: 30px auto;
-    justify-items: center;
-    text-align: center;
-}
-
-marquee span{
-    padding: 0 30px;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
 }
 .navbar{
+    background-color: #E8E8E8;
     display: flex;
-    justify-content: space-between;
-    padding: 0 30px;
-    background-color:#ffff ;
-    filter: opacity(0.6);
+    align-items: center;
+    height: 80px;
+    gap: 25em;
+    text-align: center;
+    padding: 0 50px;
     
-}
-
-.container{
-    width: 95%;
-    margin:0 auto;
- 
+    filter: opacity(0.6)
 }
 nav{
     display: flex;
-
-}
-.link-text{
-    display: flex;
-    justify-content: center;
-}
-.logo{
-    text-transform: capitalize;
-    justify-items: center;
-    padding-top: 8px;
+    gap: 30px;
 }
 nav a{
     text-decoration: none;
-    text-align: center;
-    padding: 10px;
-    text-transform: capitalize ;
-    font-weight: 500;
     color: black;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;
 }
-.icons{
+.link-icon, .icons, .link-text {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hero-part{
-    transform: translateY(40vh);
+    gap: 90px;
+    
+} 
+.hero-part {
+    text-transform: uppercase;
+    color: white;
+    transform: translateY(30vh);
 }
 .hero-part h2{
+    font-size: 3em;
+    max-width: 15em;
     font-weight: 500;
-    font-size: 64px;
-    color: #ffff;
-    width: 120vh;
-    text-transform: capitalize;
+    margin-bottom: 0.3em;
 }
 .hero-part p{
-    text-transform: capitalize;
-    width: 70vh;
-    height: 10vh;
-    font-size: 16px;
-    font-weight: 400;
-    color: #ffff;
+    max-width: 34em;
+    margin-bottom: 1em;
 }
 .hero-part a{
-    font-size: 16px;
-    font-weight: 400;
-    padding: 5px 55px;
-    transform: translateY(80vh);
     text-decoration: none;
+    color: white;
     background-color: #4170E8;
-    color: #ffff;
+    padding: 5px 40px;
 }
-.features-collection{
-    justify-content: cover;
+.features{
+    margin-bottom: -3em;
 }
-.features-collection h2{
+.features h2{
+    margin:1.2em 0em;
     text-transform: capitalize;
-    font-size: 40px;
-    font-weight: 400;
-    margin-top: 30px;
-    /* margin-bottom: 0; */
+    font-size: 38px;
 }
 .collections{
+    background-color: white;
     display: flex;
-    justify-content: cover ;
     gap: 24px;
-    margin-bottom: 7em;
 }
-.women{
-    background-image: url(../images/women.png);
-    background-repeat: no-repeat;
-    height: 110vh;
-    width: 110vh;
+.collections IMG{
+    width: 98vh;
 }
-.woman, .man{
-    transform: translateY(50vh);
-    margin: 0 24px;
-    color:#ffff ;
-}
-.men{
-    background-image: url(../images/Image\ \(1\).png);
-    background-repeat:no-repeat;
-    height: 110vh;
-    width: 110vh;   
-    /* justify-content: cover; */
-}
-.woman a, .man a{
-    color: #ffff;
+.women p, .men p{
+    transform:translateY(-5em);
+    font-size: 34px;
+    color: white;
+    margin-left: 3rem;
+} 
+.men a, .women a{
     text-decoration: none;
+    font-size: 24px;
     background-color: #4170E8;
-    padding: 4px 20px;
+    padding: 10px 40px;
+    color: white;
 }
 .trending{
-    margin-top: -15em;
-    
+    background-color:white;
 }
 .trending h2{
-    margin-top: 50px ;
+    text-transform: capitalize;
+    font-size: 34px;
+    font-weight: 500;
+    margin: 1cap 0;
 }
-
-
 .trend-collections{
     display: flex;
+    gap: 24px;
     overflow-x: scroll;
-    gap: 16px;
+}
+.item3 img{
+    height: 57vh;
+    width: auto;
 }
 .img0{
-    background-image: url(../images/Image\ \(4\).png);
-    background-repeat: no-repeat;
-}
-.img1{
-    background-image: url(../images/Image\ \(5\).png);
-    background-repeat: no-repeat;
-
-}
-.img2{
-    background-image: url(../images/Image\ \(2\).png);
-    background-repeat: no-repeat;
-
-}
-.img3{
-    background-image: url(../images/4f5c3b753513cd6461a1328631b4bcf208005a3d.jpg);
-    background-size: 90vh 94.5vh;
-    background-repeat: no-repeat;
-
-}
-h3{
-    text-transform: capitalize;
-
-}
-
-.img0, .img1, .img2, .img3{
-    height: 100vh;
-    max-width: 100%;
-    /* background-size: 100vh ; */
-}
-.img0 p,.img1 p, .img2 p, .img3 p{
+    transform: translateY(3vh);
+    margin-left: 40vh;
+    text-align: center;
+    border: #E8E8E8 solid 1px;
+    max-width: 3rem;
     background-color: #4170E8;
-    margin-left: 65vh;
-    transform: translateY(2vh);
-    max-width: 40px;
-    color: #ffff;
 }
 
 .luxury{
-    display: grid;
-   max-width: 100%;
-}
-.luxman{
-    background-image: url(../images/Image\ \(6\).png);
-    height: 100vh;
-    background-repeat: no-repeat;
+    background-color: aqua;
 }
 .luxwoman{
-    background-image: url(../images/Image\ \(3\).png);
-    height: 100vh;
-    background-repeat: no-repeat;
-    margin-top: -1em;
+    transform: translateY(-13vh);
 }
-.text{
-    font-weight: 400;
+.luxury img{
+    width: 100%;
+    height: auto;
+}
+.luxman p, .luxwoman p{
     text-align: center;
-    transform: translateY(70vh);
-    color: #ffff;
-    text-transform: uppercase;
-    gap: 200px
+    transform: translateY(-22vh);
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
-.text h2{
-    margin-bottom: 30px;
-}
-.text a{
+.luxury a{
     text-decoration: none;
-    color: #ffff;
-    padding: 5px 15px;
+    color: white;
+    padding: 3px 40px;
     background-color: #4170E8;
-    font-size: 18px;
-    text-transform: capitalize;
-    font-weight: 200;
 }
-.box{
+.box {
     background-image: url(../images/Backgrund\ Image.png);
-    height: 120vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100%;
-    margin-top: -1em;
-    
+    height: 100vh;
+    margin-top: -26.009vh;
 }
 form{
-    margin-left: 50px;
-    max-width: 500px;
-    transform: translateY(20vh);
-    padding: 40px;
-    background-color: #fff;
+    margin-left: 3%;
+    padding: 3% 2%;
+    background-color: white;
+    max-width: 45%;
+    transform: translateY(10vh);
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    gap: 2vh;
+
 }
 form h3{
-    width: 80vh;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28px;
-    margin-bottom: 10px;
-
-}  
-form p{
-    font-size: 16px;
+    font-size: 300%;
     font-weight: 400;
-    line-height: 24px;
-    margin-bottom: 20px;
+}
+form p{
+    font-weight: 100;
+    font-size: 230%;
+    opacity: 0.6;
 }
 form input{
+    font-size:100%px;
     padding: 10px;
-    margin-bottom: 20px;
-    border: none;
     background-color: #f8f8f8;
-    font-size: 16px;
-} 
-button:hover{
-    font-size: larger;
-}  
-form button{
-    background-color: #4170E8;
-    color: #fff;
-    padding: 10px;
     border: none;
-    font-size: 16px;
-    text-transform: none;
+}
+form button{
+    padding: 10px;
+    background-color: #4170E8;
+    border: none;
+    font-size: 100%;
     cursor: pointer;
-} 
+}
 footer{
     background-color: black;
-
-}  
-.first-part p{
-    color: #ffff;
-    font-size: 32px;
-    letter-spacing: 10px;
+    height: 50vh;
+}
+.lo{
+    font-size: 28px;
     text-transform: capitalize;
+    letter-spacing: 4px;
+}
+.fash{
+    margin-bottom: 10%;
 }
 .cover{
     display: flex;
-    padding-top: 30px;
-
-    gap: 10vh;
-}
-.cover a{
-    max-width: 30vh;
-}
-.gray{
-    display: flex;
-    align-items: center;
-    gap: 1vh;
-    max-width: 70vh;
+    gap: 55%;
+    color: white;
 }
 .first-part{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    gap: 3vh;
+    justify-content: center;
+    /* text-align: center; */
 }
-.hel p, .company p{
-    color: #ffff;
-    font-size: 18px;
+.gray{
+    display: flex;
+    gap: 5px;
 }
 .help{
     display: flex;
-    gap: 40vh;
+    gap:40vh;
 }
 .hel, .company{
     display: flex;
     flex-direction: column;
+    gap: 3vh;
+}
+footer a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    opacity: 0.5;
 }
 .socials{
     display: flex;
-    flex-direction: row-reverse;
-    gap: 5vh;
-    margin-right: 45px;
+    float: right;
+    gap: 10vh;
+    margin-right: 60px;
+    margin-top: 3vh;
 }
 .licence{
-    display: flex; 
-    gap: 115.5vh;
-    padding-bottom: 100px;
+    display: flex;
+    gap: 57%;
+    margin-top: 10vh;
 }
-footer a, .first-part span,.licence span{
-    color: #ffff;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-size: 13px;
-    /* width: 30vh;  */
-    /* align-items: center; */
+.licence span{
+    color: white;
+}
+.lastline{
+    display: flex;
     gap: 10vh;
-    padding-top: 15px;
-    font-weight: 200;
 }
-span{
-    margin-bottom: 10px;
-}
-span a{
-    padding-right: 30px;
-}
-header, main, footer{
-    max-width: 100%;
-}
- 
-@media only screen and (max-width:600px) { 
-    *{
-        margin:0;
-        Padding: 0;
-        overflow-X: hidden;
-        Position:relative;
-    } 
-
-    header{
-        background-position: 100%;
-        background-size: 120vh 100vh;
-    }
-    body {
-        font-size: 15px;
-        overflow-x: hidden;
-        /* overflow-y: auto; */
-        /* width: 100%; */
-        margin: 0;
-        padding: 0;
-    }
-     .nva-first, .link-text {
+@media only screen and (max-width:768px) {
+    .nva-first, .link-text{
         display: none;
-    
     }
-     .logo, .icons{
-        display: flex;
-        margin: 4px 0;
-        text-align: left;
-    }
-    .hero-part h2{
-        font-size: 2.5rem;
-        max-width: 100vh;
-        line-height: 1.2;
-    }
-    .hero-part p{
-        font-size: 1rem;
-        margin-bottom: 15px;
-    }
-
-    .cover, .help, .socials, .trend-collections, .collections{
-        display: flex;
-        flex-direction: column;
-    
+    .navbar{
+        gap: 60vh;
+        padding: 0 17px;
 
     }
     .collections{
-        gap: 0.3px;
-        margin-bottom: 8rem;
-    }
-    .img0, .img1, .img2, .img3{
-        background-size: 90vh 100vh;
-    }
-    .img0 p, .img1 p, .img2 p, .img3 p{
-       margin-left: 100vh;
-    transform: translateY(2vh);
-
-    }
-    .help, .socials{
-        gap: 2vh;
-    }
-    .socials{
-        margin-left: 15px;
-    }
-    .luxman, .luxwoman{
-        background-position: 70%;
-        background-size: 120vh 100vh;
-    }
-    form{
-        align-items: center;
-        margin: 20px;
-    }
-} 
-@media only screen and (max-width: 320px) {
-
-    *{
-        margin:0;
-        Padding: 0;
-        overflow-X: hidden;
-        Position:relative;
-    } 
-    header{
-        background-position: 100%;
-        background-size: 120vh 70vh;
-        margin-right: -1rem;
-    }
-    body {
-        font-size: 10px;
-        overflow-x: hidden;
-        overflow-y: auto;
-        /* width: 100%; */
-        margin: 0;
-        padding: 0;
-    }
-     .nva-first, .link-text {
-        display: none;
-    
-    }
-     .logo, .icons{
-        display: flex;
-        margin-right: 6px;
-        text-align: left;
-    }
-    .logo{
-        margin-left: 10px;
-    }
-    .hero-part h2{
-        font-size: 0.8rem;
-        max-width: 30vh;
-        line-height: 1.2;
-    }
-    .hero-part p{
-        font-size: 0.5rem;
-        max-width: 43vh;
-    }
-    .hero-part a{
-        transform: translateY(-90vh);
-        
-    }
-
-    .cover, .help, .socials, .trend-collections, .collections{
         display: flex;
         flex-direction: column;
-    
-
+        gap: 0px;
     }
-    .women,.Men{
-        Margin-bottom:-5rem
+    .collections IMG{
+    width: 88vh;
     }
-    .features-collection{
-        margin-top: -6rem;
-        font-size: 10px;
+    .img0{
+        margin-left: 44vh;
     }
-    .features-collection h2{
-        font-size: 9px;
-    }
-    .collections{
-        gap: -2px;
-        margin-bottom: 1rem;
-    }
-    
-    .img0, .img1, .img2, .img3{
-        background-size: 100vh 50vh;
-
-    .text{
-        margin-left: -0vh;
-        transform: translateY(50vh);
-    }
-    .help, .socials{
-        gap: 2vh;
-    }
-    .luxman, .luxwoman{
-        background-position: 70%;
-        background-size: 110vh 70vh;
-        margin-top: -31vh;
-    }
-    .on1{
-        margin-bottom: 0vh;
-        Overflow-Y:hidden;
-        Overflow-X:hidden;
-        Position:relarive;
-    }
-    form{
-        align-items: center;
-        margin: 20px;
-        margin-right: 10px;
-        max-width: 50vh;
-    }
-    form h3{
-        font-size: 10px;
-        max-width: 30vh;
-    }
-    form p, button, form input{
-        font-size: 12px;
+    .luxwoman{
+    transform: translateY(-15vh);
     }
     .box{
-        margin-top: -15vh;
+        height: 60vh;
+        margin-top: -30vh;
     }
-} 
-@media only screen and (max-width: 480px) {
-    *{
-        margin:0;
-        Padding: 0;
-        overflow-X: hidden;
-        Position:relative;
-    } 
+    form h3{
+        font-size: 200%;
+    }
+    form p{
+        font-size: 120%;
+    }
 
-    header{
-        background-position: 100%;
-        background-size: 120vh 75vh;
-        margin-right: -1rem;
+    .cover, .help, .licence{
+        gap: 20%;
     }
-    body {
-        font-size: 10px;
-        overflow-x: hidden;
-        overflow-y: auto;
-        /* width: 100%; */
-        margin: 0;
-        padding: 0;
+    footer{
+        padding: 25px 0;
     }
-     .nva-first, .link-text {
-        display: none;
     
+}
+@media only screen and (max-width:320px) {
+    header{
+        height: 70vh;
     }
-     .logo, .icons{
-        display: flex;
-        margin-right: 2vh;
-        text-align: left;
+    .navbar{
+        padding: 0 8px;
+        gap: 15em;
     }
-    .logo{
-        margin-left: 10px;
+    .icons{
+        gap: 30px;
+    }
+    .hero-part{
+        transform: translateY(25vh);
     }
     .hero-part h2{
-        font-size: 1.5rem;
-        max-width: 60vh;
-        line-height: 1.2;
+        font-size: 2em;
     }
     .hero-part p{
-        font-size: 0.5rem;
-        max-width: 43vh;
-        margin-bottom: -3vh;
+    font-size: 0.7em;
+    line-height: 1.7em;
     }
     .hero-part a{
-        margin-top: -5vh;
-        font-size: 0.8rem;
-        
-        
+    text-align: center;
+    justify-items: center;
+    padding: 9px 110px;
     }
-
-    .cover, .help, .socials, .trend-collections, .collections{
-        display: flex;
-        flex-direction: column;
-    
-
+    .features h2{
+        font-size: 1.7em;
+        font-weight: lighter;
     }
-    .features-collection{
-        margin-top: -5rem;
-        
+    .collections img{
+        width: 37vh;
     }
-    .features-collection h2{
-        font-size: 16px;
+    .women p, .men p{
+    transform:translateY(-3em);
+    font-size: 20px;
+    margin-left: 0.8rem;
     }
-    .collections{
-        margin-bottom: -1rem;
+    .men a, .women a{
+    font-size: 16px;
+    padding: 2px 10px;
     }
-    .woman h2, .man h2{
-        margin-bottom: 10px;
-    }
-    .women, .men{
-        background-size: 100vh 80vh;
-    }
-    .men{
-        margin-top: -25vh;
+    .trending h2{
+        margin: 1px 0;
     }
     .trending{
-        margin-top: -25vh;
-        margin-bottom: -10vh;
+        margin-bottom: 5px;
     }
-    .img0, .img1, .img2, .img3{
-        background-size: 90vh 70vh;
-        margin-top: -60vh;
+    .trend-collections{
+    gap: 16px;
+    }
 
+    .trend-collections img{
+        height: 45vh;
     }
-     .trending h3{
-        transform: translateY(-30vh);
-     }
-     .item0 p, .item1 p, .item2 p, .item3 p{
-        transform: translateY(-29.5vh);
-
-        
-     }
-    .text{
-        margin-left: -0vh;
-        transform: translateY(50vh);
+    .img0{
+    margin-left: 30vh;
     }
-    .help, .socials{
-        gap: 2vh;
+    .luxman p, .luxwoman p{
+    transform: translateY(-7vh);
+    font-size: 16px;    
+    font-weight: 200;
+    margin-bottom: 1vmin;
     }
-    .luxman, .luxwoman{
-        background-position: 70%;
-        background-size: 110vh 70vh;
-        margin-top: -31vh;
+    .luxury a{
+    padding: 3px 2vw;
     }
-    .on1{
-        margin-bottom: 0vh;
+    .luxwoman{
+    transform: translateY(-6vh);
+    }
+    .box {
+    background-size: center;
+    height: 50vh;
     }
     form{
-        align-items: center;
-        margin: 20px;
-        margin-right: 10px;
-        max-width: 50vh;
+        padding: 8% 4%;
+        max-width: 90%;
+        transform: translateY(20vh);
+        gap: 2vh;
+
     }
     form h3{
-        font-size: 14px;
-        max-width: 40vh;
+        font-size: 100%;
+        font-weight: 400;
     }
-    form p, button, form input{
-        font-size: 12px;
+    form p{
+        font-size: 100%;
     }
-    .box{
-        margin-top: -15vh;
+    form input, form button{
+        font: size 90%;
+    }
+    footer{
+        height: auto;
+    }
+    .cover, .licence, .help, .licence span{
+        display: flex;
+        flex-direction: column;
+    }
+    .socials{
+        gap: 3vh;
+        float: left;
+        margin-left: 10px;
+    }
+    .hel, .company{
+        margin-top: 4vh;
+    }
+    .licence{
+        flex-direction: column-reverse;
+        gap: 3vh;
+    }
+    .licence span{
+        gap: 3vh;
     }
 } 
-
-
-
-
