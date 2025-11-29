@@ -256,7 +256,7 @@ footer a{
     display: flex;
     gap: 10vh;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:600px) {
     .nva-first, .link-text{
         display: none;
     }
@@ -533,6 +533,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
