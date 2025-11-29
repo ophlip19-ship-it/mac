@@ -312,7 +312,7 @@ footer a{
         gap: 30px;
     }
     .hero-part{
-        transform: translateY(25vh);
+        transform: translateY(15vh);
     }
     .hero-part h2{
         font-size: 2em;
@@ -373,7 +373,8 @@ footer a{
     }
     .box {
     background-size: center;
-    height: 60vh;
+    height: 50vh;
+        Margin-top:30vh;
     }
     form{
         padding: 8% 4%;
@@ -529,4 +530,5 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
