@@ -357,7 +357,7 @@ footer a{
         height: 45vh;
     }
     .img0{
-    margin-left: 30vh;
+    margin-left: 28vh;
     }
     .luxman p, .luxwoman p{
     transform: translateY(-7vh);
@@ -373,8 +373,8 @@ footer a{
     }
     .box {
     background-size: center;
-    height: 50vh;
-    Margin-top:-15vh;
+    height:45vh;
+    Margin-top:-13vh;
     }
     form{
         padding: 8% 4%;
@@ -530,6 +530,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
