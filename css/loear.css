@@ -354,7 +354,7 @@ footer a{
     }
 
     .trend-collections img{
-        height: 45vh;
+        height: 43vh;
     }
     .img0{
     margin-left: 30vh;
@@ -374,7 +374,7 @@ footer a{
     .box {
     background-size: center;
     height: 50vh;
-    Margin-top:-5vh;
+    Margin-top:-11vh;
     }
     form{
         padding: 8% 4%;
@@ -530,6 +530,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
