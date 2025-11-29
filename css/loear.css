@@ -369,12 +369,12 @@ footer a{
     padding: 3px 2vw;
     }
     .luxwoman{
-    transform: translateY(-6vh);
+    transform: translateY(-8vh);
     }
     .box {
     background-size: center;
     height: 50vh;
-        Margin-top:30vh;
+        Margin-top:5vh;
     }
     form{
         padding: 8% 4%;
@@ -530,5 +530,6 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
