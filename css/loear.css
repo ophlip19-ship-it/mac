@@ -373,12 +373,12 @@ footer a{
     }
     .box {
     background-size: center;
-    height: 50vh;
+    height: 60vh;
     }
     form{
         padding: 8% 4%;
         max-width: 90%;
-        transform: translateY(20vh);
+        transform: translateY(10vh);
         gap: 2vh;
 
     }
@@ -427,7 +427,7 @@ footer a{
         gap: 30px;
     }
     .hero-part{
-        transform: translateY(25vh);
+        transform: translateY(17vh);
     }
     .hero-part h2{
         font-size: 2em;
@@ -483,7 +483,7 @@ footer a{
     padding: 3px 2vw;
     }
     .luxwoman{
-    transform: translateY(-6vh);
+    transform: translateY(-8vh);
     }
     .box {
     background-size: center;
@@ -529,3 +529,4 @@ footer a{
         gap: 3vh;
     }
 } 
+
