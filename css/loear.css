@@ -304,7 +304,7 @@ footer a{
         padding-top: 30px;
     }
     .cover, .help, .licence{
-        gap: 27vh;
+        gap: 10vh;
     }   
 }
 @media only screen and (max-width:768px) {
@@ -588,6 +588,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
