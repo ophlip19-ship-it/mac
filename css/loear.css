@@ -356,6 +356,9 @@ footer a{
     .trend-collections img{
         height: 48vh;
     }
+       .img0 h3,.img1 h3,.img2 h3,.img3 h3{
+           Font-size:16px;
+       } 
     .img0{
     margin-left: 28vh;
     }
@@ -534,6 +537,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
