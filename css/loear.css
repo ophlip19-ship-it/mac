@@ -480,7 +480,7 @@ footer a{
     }
     .navbar{
         padding: 0 8px;
-        gap: 10em;
+        gap: 5em;
     }
     .icons{
         gap: 30px;
@@ -588,6 +588,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
