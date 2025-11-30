@@ -256,6 +256,57 @@ footer a{
     display: flex;
     gap: 10vh;
 }
+
+@media only screen and (max-width:1024px) {
+    header{
+        width: 100%;
+        height: 73vh;
+    }
+    .nva-first, .navbar,.link-icon, .link-text, .icons{
+        gap: 5vh;
+    }
+    .women img, .men img{
+        width: 100%;
+    }
+    .women p, .men p{
+        transform: translateY(-3em);
+        font-size: 24px;
+    }
+    .women a, .men a{
+        padding: 3px 10px;
+        font-size: 16px;
+    }
+    .item3 img{
+        width: 100%;
+    }
+    .luxman img, .luxwoman img{
+        width: 100%;
+    }
+    .luxwoman {
+        transform: translateY(-15vh);
+    }
+    .luxman p, .luxwoman p{
+        transform: translateY(-15vh);
+    }
+    .box{
+        margin-top: -30vh;
+        height: 60vh;
+    }
+    
+    form h3{
+        font-size: 200%;
+    }
+    form p{
+        font-size: 130%;
+    }
+    
+    footer{
+        padding-top: 30px;
+    }
+    .cover, .help, .licence{
+        gap: 27vh;
+    }   
+}
 @media only screen and (max-width:768px) {
     .nva-first, .link-text{
         display: none;
@@ -422,20 +473,20 @@ footer a{
         gap: 3vh;
     }
 } 
+
 @media only screen and (max-width:320px) {
     header{
         height: 70vh;
-        Width:100%;
     }
     .navbar{
-        padding: 0 20px;
+        padding: 0 8px;
         gap: 10em;
     }
     .icons{
         gap: 30px;
     }
     .hero-part{
-        transform: translateY(20vh);
+        transform: translateY(25vh);
     }
     .hero-part h2{
         font-size: 2em;
@@ -454,7 +505,7 @@ footer a{
         font-weight: lighter;
     }
     .collections img{
-        width: 35vh;
+        width: 37vh;
     }
     .women p, .men p{
     transform:translateY(-3em);
@@ -491,7 +542,7 @@ footer a{
     padding: 3px 2vw;
     }
     .luxwoman{
-    transform: translateY(-8vh);
+    transform: translateY(-6vh);
     }
     .box {
     background-size: center;
@@ -519,7 +570,7 @@ footer a{
     }
     .cover, .licence, .help, .licence span{
         display: flex;
-        /*flex-direction: column;*/
+        flex-direction: column;
     }
     .socials{
         gap: 3vh;
@@ -537,21 +588,6 @@ footer a{
         gap: 3vh;
     }
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
