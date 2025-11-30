@@ -263,7 +263,7 @@ footer a{
         height: 75vh;
     }
     .nva-first, .navbar,.link-icon, .link-text, .icons{
-        gap: 2vh;
+        gap: 1.3vh;
     }
     .women img, .men img{
         width: 100%;
@@ -277,24 +277,24 @@ footer a{
         font-size: 16px;
     }
     .img0{
-        Margin-left:20vh;
+        Margin-left:15vh;
     }
     .item3 img{
-        width: auto;
-        Height:50vh;
+        width: 30vh;
+        Height:30vh;
     }
     .luxman img, .luxwoman img{
         width: 100%;
     }
     .luxwoman {
-        transform: translateY(-15vh);
+        transform: translateY(-10vh);
     }
     .luxman p, .luxwoman p{
         transform: translateY(-15vh);
     }
     .box{
         margin-top: -30vh;
-        height: 60vh;
+        height: 30vh;
     }
     
     form h3{
@@ -592,6 +592,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
