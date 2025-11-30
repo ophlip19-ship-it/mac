@@ -263,7 +263,7 @@ footer a{
         height: 75vh;
     }
     .nva-first, .navbar,.link-icon, .link-text, .icons{
-        gap: 5vh;
+        gap: 2vh;
     }
     .women img, .men img{
         width: 100%;
@@ -588,6 +588,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
