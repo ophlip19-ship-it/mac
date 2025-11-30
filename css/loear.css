@@ -276,8 +276,12 @@ footer a{
         padding: 3px 10px;
         font-size: 16px;
     }
+    .img0{
+        Margin-left:20vh;
+    }
     .item3 img{
-        width: 100%;
+        width: auto;
+        Height:50vh;
     }
     .luxman img, .luxwoman img{
         width: 100%;
@@ -588,6 +592,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
