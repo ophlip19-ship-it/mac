@@ -262,6 +262,12 @@ footer a{
         width: 100%;
         height: 55vh;
     }
+   .navbar{
+       Padding:0 20px; 
+   }
+    .hero-part{
+        Transform: translateY(20vh) ;
+    }
     .nva-first, .navbar,.link-icon, .link-text, .icons{
         gap: 1.3vh;
     }
@@ -280,17 +286,19 @@ footer a{
         Margin-left:13vh;
     }
     .item3 img{
-        width: 20vh;
-        Height:20vh;
+        width: 25vh;
+        Height:25vh;
     }
     .luxman img, .luxwoman img{
         width: 100%;
     }
     .luxwoman {
-        transform: translateY(-10vh);
+        transform: translateY(-5vh);
+                            
+                              
     }
     .luxman p, .luxwoman p{
-        transform: translateY(-15vh);
+        transform: translateY(-10vh);
     }
     .box{
         margin-top: -10vh;
@@ -595,6 +603,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
