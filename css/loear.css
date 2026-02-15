@@ -67,6 +67,10 @@ nav a{
     /* margin-right: 200px; */
     position: relative;
 }
+.link-icon{
+    display: flex;
+    padding: 10px;
+}
 .harmburger span{
     height: 0.6vh;
     width: 100%;
@@ -74,7 +78,7 @@ nav a{
     border-radius: 5px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    /* left: 50%; */
     transform: translate(-100%, -50%);
     transition: 0.3s ease;
 }
@@ -407,7 +411,8 @@ footer a{
         display: none;
     }
     .navbar{
-        gap: 60vh;
+        justify-content: space-between;
+        /* gap: 60vh; */
         padding: 0 17px;
 
     }
@@ -686,6 +691,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
