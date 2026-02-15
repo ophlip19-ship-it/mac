@@ -7,25 +7,32 @@
     width: 95%;
     margin: auto;
 }
+.top-screen{
+    position: fixed;
+    z-index: 99;
+}
+
 .scrowbar{
-    
     background-color: #4170E8;
     text-transform: uppercase;
     height: 20px auto;
+    width: 104%;
     justify-items: center;
     text-align: center;
     padding: 10px 0;
+    margin: 0 auto;
 }
-marquee span{ padding: 0 30px;
+marquee span{ 
+    padding: 0 30px;
 }
 header{
-    background-image: url(../images/bg\ Image.png);
-    background-repeat: no-repeat;
+    background: url(../images/bg\ Image.png) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
-    background-position: center;
+    overflow-x: hidden;
 }
 .navbar{
+    width: 100%;
     background-color: #E8E8E8;
     display: flex;
     align-items: center;
@@ -33,7 +40,8 @@ header{
     gap: 25em;
     text-align: center;
     padding: 0 50px;
-    
+    /* position: fixed; */
+    z-index: 99;
     filter: opacity(0.6)
 }
 nav{
@@ -52,6 +60,75 @@ nav a{
     gap: 90px;
     
 } 
+.harmburger{
+    display: none;
+    width: 4vh;
+    height: 3vh;
+    /* margin-right: 200px; */
+    position: relative;
+}
+.harmburger span{
+    height: 0.6vh;
+    width: 100%;
+    background-color: #000; 
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+    transition: 0.3s ease;
+}
+.harmburger span:nth-child(1){
+    top: 25%;
+}
+.harmburger span:nth-child(3){
+    top: 75%;
+}
+.harmburger.active span:nth-child(1){
+    top: 50%;
+    transform: translate(-100%, -50%) rotate(-45deg);
+}
+
+.harmburger.active span:nth-child(3){
+    top: 50%;
+    transform:  translate(-100%, -50%) rotate(45deg);
+}
+
+.harmburger.active span:nth-child(2){
+    top: 50%;
+    opacity: 0;
+}
+.off-screen{
+    left: -230vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    background-color: #E8E8E8;
+    position: fixed;
+    /* filter: opacity(0.6); */
+    transform: translateY(14.7vh);
+    z-index: 9999;
+    transition: ease-in-out 1s;
+}
+.off-screen.active{
+    left: 0vh;
+}
+.off-screen a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+.contact, .account{
+    display: block;
+    max-width: 50vh;
+    margin: 0 auto;
+    border:solid 2px #000;
+    border-radius: 10px;
+    padding:0 20vh;
+}
 .hero-part {
     text-transform: capitalize;
     color: white;
@@ -68,7 +145,7 @@ nav a{
     margin-bottom: 1em;
 
 }
-.hero-part a{
+.hero-part .shop{
     text-decoration: none;
     color: white;
     background-color: #4170E8;
@@ -334,6 +411,9 @@ footer a{
         padding: 0 17px;
 
     }
+    .harmburger{
+        display: flex;
+    }
     .collections{
         display: flex;
         flex-direction: column;
@@ -391,7 +471,7 @@ footer a{
     line-height: 1.7em;
     margin-bottom: 18px;
     }
-    .hero-part a{
+    .hero-part .shop{
     text-align: center;
     justify-items: center;
     padding: 9px 110px;
@@ -513,7 +593,7 @@ footer a{
     font-size: 0.7em;
     line-height: 1.7em;
     }
-    .hero-part a{
+    .hero-part .shop{
     text-align: center;
     justify-items: center;
     padding: 9px 110px;
@@ -606,6 +686,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
