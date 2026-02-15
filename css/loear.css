@@ -412,7 +412,7 @@ footer a{
     }
     .navbar{
         /* justify-content: space-between; */
-        gap: 50vh;
+        gap: 40vh;
         padding: 0 17px;
 
     }
@@ -469,7 +469,7 @@ footer a{
         gap: 30px;
     }
     .hero-part{
-        transform: translateY(15vh);
+        transform: translateY(25vh);
     }
     .hero-part h2{
         font-size: 2em;
@@ -694,6 +694,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
