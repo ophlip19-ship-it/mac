@@ -412,7 +412,7 @@ footer a{
     }
     .navbar{
         /* justify-content: space-between; */
-        gap: 40vh;
+        gap: 60vh;
         padding: 0 17px;
 
     }
@@ -420,7 +420,7 @@ footer a{
         display: flex;
     }
     .hero-part{
-        Transform: translateY(30vh) ;
+        Transform: translateY(20vh) ;
     }
     .collections{
         display: flex;
@@ -463,7 +463,7 @@ footer a{
     }
     .navbar{
         padding: 0 11px;
-        gap: 60%;
+        gap: 50%;
     }
     .icons{
         gap: 30px;
@@ -694,6 +694,7 @@ footer a{
         gap: 3vh;
     }
 } 
+
 
 
 
